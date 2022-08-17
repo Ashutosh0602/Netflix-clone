@@ -1,0 +1,31 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgb(28, 107, 255);
+}
+input{
+    outline: none;
+    color: black;
+    width: 25rem;
+    height: 2rem;
+    font-size: 1.3rem;
+}
+button{
+    border: 0 solid transparent;
+    background-color: transparent;
+}
+span{
+    border-radius:5px ; 
+    width: 4rem; 
+    margin-right: 1rem; 
+    padding:1rem ; 
+}
+span:nth-child(1){
+    background-color: rgb(183, 3, 183);
+}
+span:nth-child(2){
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
